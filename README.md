@@ -1,5 +1,6 @@
 # sysmon-web
 A system for deploying your own server on Linux
+Chtstno navaybkodil
 <img width="1920" height="1040" alt="W5SzPsBcFBeVUYEdY4MFhT0myP6YrOMSOBqp_IGfQbGVzX2W3XLizrayHbL0ovODVR-JYXaq3_1CZcLLCabE99GE" src="https://github.com/user-attachments/assets/16dd534a-1373-44ed-8629-cb95eb734392" />
 <img width="1920" height="1040" alt="OAsjanXJbiY6Dw_SUKgyM-38gHxgASwiCdFMmzH6JA6TEWf8c_O4iAt1rmZHQ45g8MTi4nWHKZX7yEbciYsNJs_o" src="https://github.com/user-attachments/assets/4e5f0d28-3e57-4967-af05-88647a4d1290" />
 <img width="1920" height="1040" alt="D5oPWdEyK7jRchoXhV0XVrKiDhDxYMPNxVtjhTgIQ971OSBnExkcad0DaxThtEotABrhoyKm8tJxpoxQjk1KYfbJ" src="https://github.com/user-attachments/assets/3bbba016-7927-45d9-900f-c3001edcd2e2" />
