@@ -1,6 +1,81 @@
 # sysmon-web
 A system for deploying your own server on Linux
 Chtstno navaybkodil
+**English** · [Русский](#русский)
+
+**A web panel that makes deploying and running a Linux server simple.** Install one `.deb`, open the page in a browser, sign in with your normal Linux account — and manage the whole machine from one place: no terminal, no config files, no extra services.
+
+Built for home labs, small offices and admins who want a personal NAS / private cloud without memorising commands.
+
+## What you get
+
+- **Live monitoring** — CPU, memory, load, network, disk I/O and temperature charts.
+- **Files** — browse, upload, download, edit, move and set permissions in the browser.
+- **Disks** — partitions, formatting, mounting, S.M.A.R.T. health with plain-language explanations, software RAID, LVM, encryption.
+- **Shared folders** — Samba (Windows) and NFS in a few clicks, with per-user access.
+- **Private cloud** — Nextcloud (snap) install, data folder on a RAID, shared-folder integration, open «Files» on start.
+- **Remote access** — Tailscale VPN setup, no port forwarding needed.
+- **Security** — firewall (ufw) with automatic 60-second rollback, risk check, open-ports list.
+- **Backups** — Nextcloud / Tailscale / Samba / panel settings to a disk of your choice, daily auto-copies, one-click restore. Your data on the RAID is never touched.
+- **Users and groups**, **network settings**, **system journal**, **web terminal**, **package install / remove**.
+- **Updates from GitHub** — checks releases, shows the changelog, installs with SHA-256 check and automatic rollback.
+- **English and Russian** interface, switchable in settings; your choice is saved.
+- **Zero dependencies** — pure Python standard library, HTTPS on port 8443, PAM login (administrators = `sudo` group).
+
+## Install
+
+```bash
+sudo apt install ./sysmon-web_X.Y.Z_all.deb
+```
+
+Open `https://<server-address>:8443` and sign in with a Linux account from the `sudo` group.
+
+Update later from the panel: ⚙ → *About and updates*.
+
+## Requirements
+
+Debian / Ubuntu / Astra Linux (or derivatives), Python 3, systemd.
+
+
+---
+
+<a name="русский"></a>
+# sysmon-web (Русский)
+
+**Веб-панель, которая упрощает развёртывание и управление сервером на Linux.** Установите один `.deb`, откройте страницу в браузере, войдите обычной учётной записью — и управляйте всей машиной из одного места: без терминала, без правки конфигов, без лишних сервисов.
+
+Подходит для домашних серверов, небольших офисов и администраторов, которым нужно личное хранилище / частное облако без запоминания команд.
+
+## Возможности
+
+- **Мониторинг в реальном времени** — графики процессора, памяти, нагрузки, сети, дисков и температуры.
+- **Файлы** — просмотр, загрузка, скачивание, редактирование, перемещение и права доступа в браузере.
+- **Диски** — разделы, форматирование, монтирование, здоровье S.M.A.R.T. с понятными пояснениями, программный RAID, LVM, шифрование.
+- **Общие папки** — Samba (Windows) и NFS в несколько кликов, доступ по пользователям.
+- **Личное облако** — установка Nextcloud (snap), папка данных на RAID, общие папки, сразу открывать «Файлы».
+- **Удалённый доступ** — настройка VPN Tailscale без проброса портов.
+- **Защита** — файрвол (ufw) с автоматическим откатом через 60 секунд, проверка рисков, список открытых портов.
+- **Резервные копии** — настройки Nextcloud / Tailscale / Samba / панели на выбранный диск, ежедневные копии, восстановление одной кнопкой. Данные на RAID не затрагиваются.
+- **Пользователи и группы**, **настройки сети**, **журнал**, **веб-терминал**, **установка и удаление пакетов**.
+- **Обновления из GitHub** — проверка релизов, список изменений, установка с проверкой SHA-256 и автоматическим откатом.
+- **Интерфейс на английском и русском**, переключение в настройках, выбор сохраняется.
+- **Без зависимостей** — только стандартная библиотека Python, HTTPS на порту 8443, вход через PAM (администраторы — группа `sudo`).
+
+## Установка
+
+```bash
+sudo apt install ./sysmon-web_X.Y.Z_all.deb
+```
+
+Откройте `https://<адрес-сервера>:8443` и войдите учётной записью из группы `sudo`.
+
+Обновление позже — прямо из панели: ⚙ → *О программе и обновления*.
+
+## Требования
+
+Debian / Ubuntu / Astra Linux (и производные), Python 3, systemd.
+
+
 <img width="1920" height="1040" alt="W5SzPsBcFBeVUYEdY4MFhT0myP6YrOMSOBqp_IGfQbGVzX2W3XLizrayHbL0ovODVR-JYXaq3_1CZcLLCabE99GE" src="https://github.com/user-attachments/assets/16dd534a-1373-44ed-8629-cb95eb734392" />
 <img width="1920" height="1040" alt="OAsjanXJbiY6Dw_SUKgyM-38gHxgASwiCdFMmzH6JA6TEWf8c_O4iAt1rmZHQ45g8MTi4nWHKZX7yEbciYsNJs_o" src="https://github.com/user-attachments/assets/4e5f0d28-3e57-4967-af05-88647a4d1290" />
 <img width="1920" height="1040" alt="D5oPWdEyK7jRchoXhV0XVrKiDhDxYMPNxVtjhTgIQ971OSBnExkcad0DaxThtEotABrhoyKm8tJxpoxQjk1KYfbJ" src="https://github.com/user-attachments/assets/3bbba016-7927-45d9-900f-c3001edcd2e2" />
